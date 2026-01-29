@@ -7,7 +7,7 @@ img_size=(64,64)
 batch_size=32
 
 training_data = tf.keras.preprocessing.image_dataset_from_directory(
-    r"C:\Users\anush\OneDrive\Documents\GestureRecognition\archive\leapGestRecog\Training Data",
+    r"GestureRecognition\archive\leapGestRecog\Training Data",
     image_size=img_size,
     batch_size=batch_size,
     shuffle = True,
@@ -17,7 +17,7 @@ training_data = tf.keras.preprocessing.image_dataset_from_directory(
 )
 
 validation_data = tf.keras.preprocessing.image_dataset_from_directory(
-    r"C:\Users\anush\OneDrive\Documents\GestureRecognition\archive\leapGestRecog\Validation Data",
+    r"GestureRecognition\archive\leapGestRecog\Validation Data",
     image_size=img_size,
     batch_size=batch_size,
     shuffle = True,
